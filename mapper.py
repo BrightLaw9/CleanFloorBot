@@ -1,9 +1,9 @@
 import pygame 
 
-import ultrasonicSensing 
+import odometryHandler 
 
-x = ultrasonicSensing.getX() 
-y = ultrasonicSensing.getY() 
+x = odometry.getX() 
+y = odometry.getY() 
 
 drawer = pygame.draw
 
